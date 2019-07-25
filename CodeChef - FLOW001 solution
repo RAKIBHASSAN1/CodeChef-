@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+int n,m,s=0,t;
+cin>>t;
+while(t--)
+{
+s=0;
+cin>>n>>m;
+   s=n+m;
+cout<<s<<endl;
+}
+
+
+
+}
