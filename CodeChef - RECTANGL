@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+int t,a,b,c,d;
+cin>>t;
+while(t--)
+{
+   cin>>a>>b>>c>>d;
+   int a1[4];
+ a1[0]=a;
+ a1[1]=b;
+ a1[2]=c;
+ a1[3]=d;
+ sort(a1,a1+4);
+ if(a1[0]==a1[1]&&a1[2]==a1[3])
+ {
+     cout<<"YES"<<endl;
+ }
+ else
+ {
+     cout<<"NO"<<endl;
+ }
+}
+
+
+}
