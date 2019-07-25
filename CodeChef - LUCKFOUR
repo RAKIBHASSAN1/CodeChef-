@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   	int t,k,c; 
+   	string a;
+   	cin>>t;
+   	while(t--)
+   	{
+	   	cin>>a;
+	   	c=0;
+    	for(k=0;k<a.length();k++)
+    	{
+	    	if(a[k]=='4') 
+	    	{
+	    	    
+	    	    c++;
+	    	}
+    	}
+    	cout<<c<<endl;
+    }
+}
